@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath Tutor app:app
+web: gunicorn --pythonpath . app:app
